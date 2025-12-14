@@ -10,7 +10,7 @@ A minimal Python prototype was added to align with the preliminary report requir
 ### Installation
 ```bash
 python -m venv .venv
-source .venv/bin/activate
+.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 ```
 
