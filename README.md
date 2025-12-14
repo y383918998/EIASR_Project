@@ -1,10 +1,8 @@
 # EIASR_Project
 2025/2026 Project for EIASR, topic is "driving assistance"
 
-## MATLAB prototype (original)
-The repository initially contained MATLAB scripts for lane detection and vehicle distance estimation experiments.
 
-## Python prototype (added)
+## Python prototype
 A minimal Python prototype was added to align with the preliminary report requirements:
 - Lane detection with Gaussian smoothing, Canny edge extraction, ROI masking, and Hough line grouping followed by quadratic fitting and lane-type heuristics.
 - Vehicle detection hook using HOG features with an external linear SVM (optional) and monocular distance estimation using a pinhole model.
